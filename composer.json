@@ -1,0 +1,19 @@
+{
+    "name": "tenentechan/ecommerce",
+    "authors": [
+        {
+            "name": "Is Nine Design",
+            "email": "marcelosouza_chan@yahoo.com.br"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\sowlifebr\\php-classes\\src"
+        }
+    }
+}
