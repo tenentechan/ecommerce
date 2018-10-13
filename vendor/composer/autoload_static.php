@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit536a728067dd4988a4ca63ea39ac3d44
 {
     public static $prefixLengthsPsr4 = array (
-        'H' => 
+        'S' => 
         array (
-            'Hcode\\' => 6,
+            'Sowlife\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Hcode\\' => 
+        'Sowlife\\' => 
         array (
             0 => __DIR__ . '/..' . '/sowlifebr/php-classes/src',
         ),

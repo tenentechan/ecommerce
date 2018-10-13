@@ -2,18 +2,13 @@
 
 require_once("vendor/autoload.php");
 
-//nome das classes que vou usar do verndor
-use \Slim\Slim;
-use \Sowlife\Page;
-
-$app = new Slim();
+$app = new \Slim\Slim();
 
 $app->config('debug', true);
 
-//Rotas para serem usadas
 $app->get('/', function() {
     
-	$page = new Page();
+	$page = new Hcode\Page();
 
 	$page->setTpl("index");
 
