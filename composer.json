@@ -1,9 +1,9 @@
 {
-    "name": "tenentechan/ecommerce",
+    "name": "hcodebr/ecommerce",
     "authors": [
         {
-            "name": "Is Nine Design",
-            "email": "marcelosouza_chan@yahoo.com.br"
+            "name": "Hcode Treinamentos",
+            "email": "voneidesenvolvedor@gmail.com"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sowlife\\": "vendor\\sowlifebr\\php-classes\\src"
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
         }
     }
 }

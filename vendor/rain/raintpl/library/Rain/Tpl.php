@@ -217,6 +217,7 @@ class Tpl {
             $this->compileString($templateName, $templateBasedir, $templateFilepath, $parsedTemplateFilepath, $string);
 
         return $parsedTemplateFilepath;
+        
     }
 
     /**
